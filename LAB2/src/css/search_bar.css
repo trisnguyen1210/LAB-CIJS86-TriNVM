@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.has-search {
+    margin: 25px;
+}
+
+.has-search .form-control {
+    padding-left: 1rem;
+    width: 30%;
+    border: none;
+    border-bottom: 1px solid #BFC8E6;
+    border-radius: 4px;
+    height: 64px;
+    font-size: 35px;
+}

@@ -1,0 +1,99 @@
+/* /////////todolist///////// */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html body {
+  overflow: hidden;
+}
+
+.has-search {
+  margin: 25px;
+}
+
+.has-search .form-control {
+  padding-left: 1rem;
+  width: 40%;
+  border: none;
+  border-bottom: 1px solid #BFC8E6;
+  border-radius: 4px;
+  height: 64px;
+  font-size: 35px;
+}
+
+/* /////////checkbox-ratio/////////// */
+.checkbox-container {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  padding-left: 30px;
+  /* Khoảng cách giữa checkbox và văn bản */
+  margin-right: 10px;
+  /* Khoảng cách giữa các checkbox nếu có nhiều */
+}
+
+.checkbox-container input {
+  display: none;
+  /* Ẩn input thật */
+}
+
+.checkmark {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  /* Tạo hình tròn */
+}
+
+/* Hiệu ứng khi hover vào checkbox */
+.checkbox-container:hover input~.checkmark {
+  background-color: #ccc;
+  /* Màu nền khi hover */
+}
+
+/* Hiệu ứng khi checkbox được chọn */
+.checkbox-container input:checked~.checkmark {
+  background-color: greenyellow;
+  border-color: green;
+  /* Màu nền khi checkbox được chọn */
+}
+
+/* Định dạng nút check (dấu tích) khi checkbox được chọn */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.has-search ul li {
+  padding: 10px;
+  list-style: none;
+}
+
+.has-search ul li label {
+  font-size: 20px;
+  font-family: initial;
+}
+
+/* ///////////////counter task/////////////// */
+
+.special-text {
+  padding: 50px;
+  font-size: 50px;
+  position: fixed;
+  bottom: 0;
+  font-family: cursive;
+}
+
+#taskleft {
+  left: 10px;
+}
+
+#logo {
+  right: 10px;
+}
