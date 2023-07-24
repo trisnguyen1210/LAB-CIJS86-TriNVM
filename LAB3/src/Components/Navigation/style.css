@@ -1,0 +1,49 @@
+/* NAVIGATION BAR */
+
+nav {
+    background-color: rgb(12, 56, 107);
+}
+
+.nav__left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav__left>a {
+    padding-right: 80px;
+}
+
+.nav__content {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 25px;
+    color: white;
+}
+
+.nav__content ul {
+    list-style: none;
+}
+
+.nav__content ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav__content a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav__content ul li a:hover {
+    padding: 10px 15px;
+    background-color: #F9F8F8;
+    color: black;
+}
+
+.nav__content a:hover {
+    color: red;
+}

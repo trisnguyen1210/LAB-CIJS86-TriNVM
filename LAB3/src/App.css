@@ -1,0 +1,74 @@
+/* GLOBAL */
+
+* {
+  /* Xóa mặc định thêm padding của các thẻ heading, p */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+section,
+footer,
+aside,
+nav,
+main,
+article,
+figure {
+  display: block;
+}
+
+html,
+body {
+  font-family: 'Fira Code', monospace;
+  /* In here We define value of rem is: 1rem=20px */
+  font-size: 20px;
+  /* if not defining range of rem -> Browse will define 1rem=16px */
+}
+
+
+/* HEADER */
+
+header {
+  background-color: rgb(28, 110, 204);
+}
+
+.header__left {
+  display: flex;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header__right a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.header__right,
+.header__left {
+  color: white;
+}
+
+.header__right a:hover {
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+}
+
+/* .CAROUSEL */
+
+.carousel {
+  height: 730px;
+  background-image: url('./Components/img/b1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
