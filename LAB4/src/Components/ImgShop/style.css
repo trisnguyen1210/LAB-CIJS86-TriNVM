@@ -1,0 +1,9 @@
+.img_selected {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+.img_selected:hover {
+    outline: 2px solid red
+}
