@@ -1,0 +1,69 @@
+/* modal.css */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Màu nền và độ mờ khi modal hiển thị */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.modal-close {
+    position: relative;
+    top: 10px;
+    left: 375px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.item_incart {
+    display: flex;
+}
+
+.modal-content {
+    margin-top: 10px;
+    color: black;
+}
+
+.modal-content img {
+    height: 100px;
+    width: 100px;
+}
+
+.modal-content p {
+    align-self: center;
+    margin: 5px;
+    width: -webkit-fill-available;
+}
+
+.btn_delete {
+    width: 100%;
+    align-self: center;
+    text-align: end;
+}
+
+.total_price {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    background-color: greenyellow;
+    margin-top: 5px;
+}
