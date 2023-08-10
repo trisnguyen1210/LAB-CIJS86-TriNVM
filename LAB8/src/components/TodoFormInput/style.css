@@ -1,0 +1,28 @@
+.FormInput {
+    padding: 20px 0px;
+    display: flex;
+}
+
+.FormInput input {
+    border: 1px solid #ccc;
+    display: block;
+    width: 40%;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 20px;
+    font-family: muli-bold;
+    background-color: #FFF3DA;
+    font-size: large;
+}
+
+.FormInput button {
+    margin: 0px 10px;
+    border: 1px solid #ccc;
+    display: block;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 20px;
+    font-family: muli-bold;
+    background-color: #FFF3DA;
+    font-size: large;
+}
