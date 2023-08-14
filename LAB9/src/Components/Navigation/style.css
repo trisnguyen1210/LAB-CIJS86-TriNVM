@@ -1,0 +1,33 @@
+/* Navigation.css */
+.navbar {
+    padding: 10px;
+    width: fit-content;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border-bottom: black solid 2px;
+}
+
+.nav-item {
+    margin: 0;
+    padding: 0px 20px;
+}
+
+.nav-item a {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.nav-link:hover {
+    background-color: #555;
+}

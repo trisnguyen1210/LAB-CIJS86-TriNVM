@@ -1,0 +1,9 @@
+button:focus {
+    background-color: #AAC8A7;
+    color: black;
+}
+
+.background {
+    padding: 20px;
+    display: flex;
+}

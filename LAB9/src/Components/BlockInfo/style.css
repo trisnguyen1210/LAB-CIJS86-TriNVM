@@ -1,0 +1,10 @@
+.background_info {
+    margin: 0px 40px;
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+}
+
+.background_info p {
+    color: black;
+}
